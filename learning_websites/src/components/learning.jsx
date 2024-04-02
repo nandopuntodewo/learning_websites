@@ -5,14 +5,14 @@ import YoutubeEmbed from "./youtubeEmbeded";
 export default function Learning() {
   return (
     <div>
-      <div className="ps-44 pe-44">
+      <div className="ps-9 pe-9 md:ps-44 md:pe-44">
         <div>
-          <p className="font-bold text-[#9AA5F7] text-5xl">
+          <p className="font-bold text-[#9AA5F7] text-3xl md:text-5xl">
             Uniform Rectilinear Motion (Title)
           </p>
         </div>
         <div className="mt-11">
-          <p className="font-semibold text-3xl">Section #1</p>
+          <p className="font-semibold text-2xl md:text-3xl">Section #1</p>
           <p className="mt-6 text-2xl text-justify">
             Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
             turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
@@ -29,7 +29,7 @@ export default function Learning() {
           </div>
         </div>
         <div className="mt-11">
-          <p className="font-semibold text-3xl">Section #2</p>
+          <p className="font-semibold text-2xl md:text-3xl">Section #2</p>
           <p className="mt-6 text-2xl text-justify">
             Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
             turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
