@@ -11,12 +11,9 @@ export default function Learning() {
             Uniform Rectilinear Motion (Title)
           </p>
         </div>
-        <div className="mt-11">
+        <div className="mt-11" id="section1">
           <p className="font-semibold text-2xl md:text-3xl">Section #1</p>
           <p className="mt-6 text-2xl text-justify">
-            Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
-            nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
             tellus elit sed risus. Maecenas eget condimentum velit, sit amet
             feugiat lectus. Class aptent taciti sociosqu ad litora torquent per
             conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus
@@ -28,7 +25,7 @@ export default function Learning() {
             <img src={Pict} alt="picture" />
           </div>
         </div>
-        <div className="mt-11">
+        <div className="mt-11" id="section2">
           <p className="font-semibold text-2xl md:text-3xl">Section #2</p>
           <p className="mt-6 text-2xl text-justify">
             Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
@@ -62,7 +59,7 @@ export default function Learning() {
           </div>
         </div>
 
-        <div className="mt-11">
+        <div className="mt-11" id="video">
           <p className="font-semibold text-3xl">Video</p>
           <div className="mt-5">
             <YoutubeEmbed embedId="z0D4bN00myo" />
@@ -80,8 +77,8 @@ export default function Learning() {
           </p>
         </div>
 
-        <div className="mt-5 mb-5">
-          <button className="btn bg-[#8ba7fa] px-10 text-white font-bold">
+        <div className="mt-5 mb-5" id="quiz">
+          <button className="btn bg-[#5D83F2] px-10 text-white font-bold">
             Quiz{" "}
             <svg
               width="24px"
