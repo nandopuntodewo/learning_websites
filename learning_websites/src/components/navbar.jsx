@@ -22,6 +22,7 @@ export default function Navbar() {
                       spy={true}
                       smooth={true}
                       duration={500}
+                      offset={-100}
                     >
                       <a>Content 1</a>
                     </ScrollLink>
@@ -32,6 +33,7 @@ export default function Navbar() {
                       spy={true}
                       smooth={true}
                       duration={500}
+                      offset={-100}
                     >
                       <a>Content 2</a>
                     </ScrollLink>
