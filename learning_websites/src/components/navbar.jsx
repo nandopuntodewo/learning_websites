@@ -4,7 +4,7 @@ import { Link as ScrollLink } from "react-scroll";
 export default function Navbar() {
   return (
     <div>
-      <div className="navbar sticky bg-base-100 ps-10 md:ps-24 md:pe-24 lg:pe-28">
+      <div className="navbar fixed top-0 bg-base-100 ps-10 md:ps-24 md:pe-24 lg:pe-28">
         <div className="flex-1">
           <ScrollLink to="home" spy={true} smooth={true} duration={500}>
             <a className="md:text-2xl sm:text-sm font-bold">Logo</a>
