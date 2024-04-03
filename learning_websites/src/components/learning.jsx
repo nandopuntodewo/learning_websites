@@ -12,7 +12,7 @@ export default function Learning() {
           </p>
         </div>
         <div className="mt-11" id="section1">
-          <p className="font-semibold text-2xl md:text-3xl">Section #1</p>
+          <p className="font-semibold text-2xl md:text-3xl mb-10">Section #1</p>
           <p className="mt-6 text-2xl text-justify">
             tellus elit sed risus. Maecenas eget condimentum velit, sit amet
             feugiat lectus. Class aptent taciti sociosqu ad litora torquent per
@@ -26,7 +26,7 @@ export default function Learning() {
           </div>
         </div>
         <div className="mt-11" id="section2">
-          <p className="font-semibold text-2xl md:text-3xl">Section #2</p>
+          <p className="font-semibold text-2xl md:text-3xl mb-10">Section #2</p>
           <p className="mt-6 text-2xl text-justify">
             Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
             turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
