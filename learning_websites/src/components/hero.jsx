@@ -9,7 +9,7 @@ export default function Hero() {
     >
       <div>
         <p className="font-bold text-5xl text-center md:text-start md:text-7xl">
-          Learning physics can be easy <br /> and fun
+          Learning physics can be easy  <br /> and fun
         </p>
         <div className="mt-24 md:mt-9 flex justify-center md:justify-start">
           <button className="btn bg-[#5D83F2] px-10 text-white font-bold border-none">

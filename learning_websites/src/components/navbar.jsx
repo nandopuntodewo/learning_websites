@@ -4,7 +4,9 @@ import { Link as ScrollLink } from "react-scroll";
 export default function Navbar() {
   return (
     <div>
-      <div className="navbar fixed top-0 bg-[#EEEFF426] ps-10 md:ps-24 md:pe-24 lg:pe-28 shadow-xl">
+      <div
+        className="navbar fixed top-0 bg-[#EEEFF4] backdrop-blur-lg ps-10 md:ps-24 md:pe-24 lg:pe-28 shadow-xl"
+      >
         <div className="flex-1">
           <ScrollLink to="home" spy={true} smooth={true} duration={500}>
             <a className="md:text-2xl sm:text-sm font-bold">Logo</a>
@@ -42,7 +44,13 @@ export default function Navbar() {
               </details>
             </li>
             <li>
-              <ScrollLink to="video" spy={true} smooth={true} duration={500}>
+              <ScrollLink
+                to="video"
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={-100}
+              >
                 <a>Video</a>
               </ScrollLink>
             </li>
